@@ -16,9 +16,9 @@
 
 ```
         <dependency>
-            <groupId>com.ntx</groupId>
+                <groupId>io.github.ntxlike</groupId>
             <artifactId>oss-sdk</artifactId>
-            <version>0.0.3</version>
+            <version>0.0.4</version>
         </dependency>
 ```
 
@@ -50,7 +50,7 @@ private OssClient ossClient;
      * @param file 上传的文件
      * @return url
      */
-    String upload(MultipartFile file) throws Exception;
+    String upload(MultipartFile file);
 
     /**
      * 下载文件
@@ -59,15 +59,15 @@ private OssClient ossClient;
      * @param objectName   文件名称
      * @return true/false
      */
-    boolean download(String downloadPath, String objectName) throws Exception;
+    boolean download(String downloadPath, String objectName);
 
     /**
      * 分片上传文件
      *
      * @param file 上传的文件
      * @return url
-     * @throws Exception 异常
+
      */
-    String uploadFile(MultipartFile file) throws Exception;
+    String uploadFile(MultipartFile file) ;
 ```
 

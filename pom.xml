@@ -4,7 +4,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.ntx</groupId>
     <artifactId>oss-sdk</artifactId>
-    <version>0.0.3</version>
+    <version>0.0.4</version>
     <name>oss-sdk</name>
     <description>oss-sdk</description>
     <properties>
@@ -52,8 +52,6 @@
             <version>3.17.4</version>
         </dependency>
     </dependencies>
-
-
     <dependencyManagement>
         <dependencies>
             <dependency>
@@ -65,19 +63,4 @@
             </dependency>
         </dependencies>
     </dependencyManagement>
-    <build>
-        <plugins>
-            <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-compiler-plugin</artifactId>
-                <configuration>
-                    <compilerArgs>
-                        <arg>-parameters</arg>
-                    </compilerArgs>
-                </configuration>
-            </plugin>
-        </plugins>
-    </build>
-
-
 </project>

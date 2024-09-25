@@ -1,0 +1,2 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=com.ntx.osssdk.OssSdkClientConfig
+#org.springframework.boot.autoconfigure.EnableAutoConfiguration=com.ntx.osssdk.Propertiesrties.properties
